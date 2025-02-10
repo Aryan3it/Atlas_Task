@@ -1,0 +1,214 @@
+
+Graph Statistics:
+Total Countries: 195
+Total Connections: 2023
+Average Connections: 10.374358974358975
+Most Connected: Afghanistan
+Isolated Countries: []
+
+Most Common Connecting Letters:
+'a': 805 connections
+'s': 438 connections
+'n': 275 connections
+'e': 104 connections
+'i': 81 connections
+
+Country Connection Ratios:
+
+Country              Ratio      In         Out        Total     
+------------------------------------------------------------
+Norway               0.96       25         1          26        
+San Marino           0.94       17         1          18        
+Iraq                 0.90       9          1          10        
+Italy                0.90       9          1          10        
+Niger                0.89       25         3          28        
+Democratic Republic  0.89       8          1          9         
+Albania              0.88       73         10         83        
+Algeria              0.88       73         10         83        
+Andorra              0.88       73         10         83        
+Angola               0.88       73         10         83        
+Antigua and Barbuda  0.88       73         10         83        
+Argentina            0.88       73         10         83        
+Armenia              0.88       73         10         83        
+Australia            0.88       73         10         83        
+Austria              0.88       73         10         83        
+Afghanistan          0.87       74         11         85        
+Azerbaijan           0.87       74         11         85        
+Uruguay              0.86       6          1          7         
+Lesotho              0.83       5          1          6         
+New Zealand          0.83       25         5          30        
+Ecuador              0.81       13         3          16        
+El Salvador          0.81       13         3          16        
+Nauru                0.78       25         7          32        
+Switzerland          0.77       17         5          22        
+Congo                0.75       3          1          4         
+Mexico               0.75       3          1          4         
+Monaco               0.75       3          1          4         
+Montenegro           0.75       3          1          4         
+Morocco              0.75       3          1          4         
+Togo                 0.75       3          1          4         
+Trinidad and Tobago  0.75       3          1          4         
+Turkey               0.75       3          1          4         
+Nepal                0.74       25         9          34        
+North Korea          0.69       25         11         36        
+Namibia              0.69       25         11         36        
+Nicaragua            0.69       25         11         36        
+Nigeria              0.69       25         11         36        
+North Macedonia      0.69       25         11         36        
+Sao Tome and Princi  0.68       17         8          25        
+Sierra Leone         0.68       17         8          25        
+Singapore            0.68       17         8          25        
+Suriname             0.68       17         8          25        
+Senegal              0.65       17         9          26        
+Iceland              0.64       9          5          14        
+Ireland              0.64       9          5          14        
+Denmark              0.62       8          5          13        
+South Korea          0.61       17         11         28        
+Saint Lucia          0.61       17         11         28        
+Samoa                0.61       17         11         28        
+Saudi Arabia         0.61       17         11         28        
+Serbia               0.61       17         11         28        
+Slovakia             0.61       17         11         28        
+Slovenia             0.61       17         11         28        
+Somalia              0.61       17         11         28        
+South Africa         0.61       17         11         28        
+South Sudan          0.61       17         11         28        
+Spain                0.61       17         11         28        
+Sri Lanka            0.61       17         11         28        
+Sudan                0.61       17         11         28        
+Sweden               0.61       17         11         28        
+Syria                0.61       17         11         28        
+Eswatini             0.59       13         9          22        
+Equatorial Guinea    0.54       13         11         24        
+Eritrea              0.54       13         11         24        
+Estonia              0.54       13         11         24        
+Ethiopia             0.54       13         11         24        
+Egypt                0.52       13         12         25        
+Germany              0.50       1          1          2         
+Hungary              0.50       1          1          2         
+Israel               0.50       9          9          18        
+Madagascar           0.50       3          3          6         
+Myanmar              0.50       3          3          6         
+Oman                 0.50       11         11         22        
+Netherlands          0.49       25         26         51        
+Djibouti             0.47       8          9          17        
+India                0.45       9          11         20        
+Indonesia            0.45       9          11         20        
+Iran                 0.45       9          11         20        
+Ivory Coast          0.43       9          12         21        
+Ukraine              0.43       6          8          14        
+Dominica             0.42       8          11         19        
+Yemen                0.42       8          11         19        
+Saint Kitts and Nev  0.39       16         25         41        
+Saint Vincent and t  0.39       16         25         41        
+Seychelles           0.39       16         25         41        
+Solomon Islands      0.39       16         25         41        
+Chad                 0.38       3          5          8         
+Thailand             0.38       3          5          8         
+Romania              0.35       6          11         17        
+Russia               0.35       6          11         17        
+Rwanda               0.35       6          11         17        
+Uganda               0.35       6          11         17        
+United States of Am  0.35       6          11         17        
+Uzbekistan           0.35       6          11         17        
+Dominican Republic   0.33       8          16         24        
+Latvia               0.31       5          11         16        
+Lebanon              0.31       5          11         16        
+Liberia              0.31       5          11         16        
+Libya                0.31       5          11         16        
+Liechtenstein        0.31       5          11         16        
+Lithuania            0.31       5          11         16        
+Luxembourg           0.31       5          11         16        
+Tuvalu               0.30       3          7          10        
+Cabo Verde           0.27       3          8          11        
+Chile                0.27       3          8          11        
+Mozambique           0.27       3          8          11        
+Timor-Leste          0.27       3          8          11        
+Malawi               0.25       3          9          12        
+Mali                 0.25       3          9          12        
+Qatar                0.25       1          3          4         
+United Kingdom       0.25       6          18         24        
+Cambodia             0.21       3          11         14        
+Cameroon             0.21       3          11         14        
+Canada               0.21       3          11         14        
+China                0.21       3          11         14        
+Colombia             0.21       3          11         14        
+Costa Rica           0.21       3          11         14        
+Croatia              0.21       3          11         14        
+Cuba                 0.21       3          11         14        
+Malaysia             0.21       3          11         14        
+Malta                0.21       3          11         14        
+Mauritania           0.21       3          11         14        
+Micronesia           0.21       3          11         14        
+Moldova              0.21       3          11         14        
+Mongolia             0.21       3          11         14        
+Taiwan               0.21       3          11         14        
+Tajikistan           0.21       3          11         14        
+Tanzania             0.21       3          11         14        
+Tonga                0.21       3          11         14        
+Tunisia              0.21       3          11         14        
+Turkmenistan         0.21       3          11         14        
+United Arab Emirate  0.19       6          26         32        
+Laos                 0.16       5          26         31        
+Guinea-Bissau        0.12       1          7          8         
+Central African Rep  0.12       2          15         17        
+Czech Republic       0.12       2          15         17        
+Greece               0.11       1          8          9         
+Comoros              0.10       3          26         29        
+Cyprus               0.10       3          26         29        
+Maldives             0.10       3          26         29        
+Marshall Islands     0.10       3          26         29        
+Mauritius            0.10       3          26         29        
+Haiti                0.10       1          9          10        
+Kiribati             0.10       1          9          10        
+Gabon                0.08       1          11         12        
+Gambia               0.08       1          11         12        
+Georgia              0.08       1          11         12        
+Ghana                0.08       1          11         12        
+Grenada              0.08       1          11         12        
+Guatemala            0.08       1          11         12        
+Guinea               0.08       1          11         12        
+Guyana               0.08       1          11         12        
+Kazakhstan           0.08       1          11         12        
+Kenya                0.08       1          11         12        
+Kyrgyzstan           0.08       1          11         12        
+Kuwait               0.08       1          12         13        
+Honduras             0.04       1          26         27        
+Bahamas              0.00       0          26         26        
+Bahrain              0.00       0          11         11        
+Bangladesh           0.00       0          3          3         
+Barbados             0.00       0          26         26        
+Belarus              0.00       0          26         26        
+Belgium              0.00       0          18         18        
+Belize               0.00       0          8          8         
+Benin                0.00       0          11         11        
+Bhutan               0.00       0          11         11        
+Bolivia              0.00       0          11         11        
+Bosnia and Herzegov  0.00       0          11         11        
+Botswana             0.00       0          11         11        
+Brazil               0.00       0          9          9         
+Brunei               0.00       0          9          9         
+Bulgaria             0.00       0          11         11        
+Burkina Faso         0.00       0          1          1         
+Burundi              0.00       0          9          9         
+Fiji                 0.00       0          9          9         
+Finland              0.00       0          5          5         
+France               0.00       0          8          8         
+Jamaica              0.00       0          11         11        
+Japan                0.00       0          11         11        
+Jordan               0.00       0          11         11        
+Pakistan             0.00       0          11         11        
+Palau                0.00       0          7          7         
+Panama               0.00       0          11         11        
+Papua New Guinea     0.00       0          11         11        
+Paraguay             0.00       0          1          1         
+Peru                 0.00       0          7          7         
+Philippines          0.00       0          26         26        
+Poland               0.00       0          5          5         
+Portugal             0.00       0          9          9         
+Vanuatu              0.00       0          7          7         
+Vatican City         0.00       0          1          1         
+Venezuela            0.00       0          11         11        
+Vietnam              0.00       0          18         18        
+Zambia               0.00       0          11         11        
+Zimbabwe             0.00       0          8          8         

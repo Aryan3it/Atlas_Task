@@ -1,0 +1,205 @@
+Community 0:
+  - Afghanistan
+  - Albania
+  - Algeria
+  - Andorra
+  - Angola
+  - Antigua and Barbuda
+  - Argentina
+  - Armenia
+  - Australia
+  - Austria
+  - Azerbaijan
+  - Bolivia
+  - Bosnia and Herzegovina
+  - Botswana
+  - Bulgaria
+  - Cambodia
+  - Canada
+  - China
+  - Colombia
+  - Costa Rica
+  - Croatia
+  - Cuba
+  - Gambia
+  - Georgia
+  - Ghana
+  - Grenada
+  - Guatemala
+  - Guinea
+  - Guyana
+  - Jamaica
+  - Kenya
+  - Latvia
+  - Liberia
+  - Libya
+  - Lithuania
+  - Malaysia
+  - Malta
+  - Mauritania
+  - Micronesia
+  - Moldova
+  - Mongolia
+  - Panama
+  - Papua New Guinea
+  - Qatar
+  - Romania
+  - Russia
+  - Rwanda
+  - Tanzania
+  - Tonga
+  - Tunisia
+  - Uganda
+  - United States of America
+  - Venezuela
+  - Zambia
+
+Community 1:
+  - Bahrain
+  - Benin
+  - Bhutan
+  - Brazil
+  - Burkina Faso
+  - Cameroon
+  - Gabon
+  - Germany
+  - Iran
+  - Japan
+  - Jordan
+  - Kazakhstan
+  - Kuwait
+  - Kyrgyzstan
+  - Lebanon
+  - Lesotho
+  - Liechtenstein
+  - Luxembourg
+  - Namibia
+  - Nauru
+  - Nepal
+  - New Zealand
+  - Nicaragua
+  - Niger
+  - Nigeria
+  - North Korea
+  - North Macedonia
+  - Norway
+  - Oman
+  - Pakistan
+  - Paraguay
+  - Portugal
+  - Taiwan
+  - Tajikistan
+  - Togo
+  - Trinidad and Tobago
+  - Turkey
+  - Turkmenistan
+  - Uzbekistan
+  - Vatican City
+  - Yemen
+
+Community 2:
+  - Bahamas
+  - Barbados
+  - Belarus
+  - Comoros
+  - Cyprus
+  - Honduras
+  - Laos
+  - Maldives
+  - Marshall Islands
+  - Mauritius
+  - Netherlands
+  - Philippines
+  - Saint Kitts and Nevis
+  - Saint Lucia
+  - Saint Vincent and the Grenadines
+  - Samoa
+  - San Marino
+  - Sao Tome and Principe
+  - Saudi Arabia
+  - Senegal
+  - Serbia
+  - Seychelles
+  - Sierra Leone
+  - Singapore
+  - Slovakia
+  - Slovenia
+  - Solomon Islands
+  - Somalia
+  - South Africa
+  - South Korea
+  - South Sudan
+  - Spain
+  - Sri Lanka
+  - Sudan
+  - Suriname
+  - Sweden
+  - Switzerland
+  - Syria
+  - United Arab Emirates
+
+Community 3:
+  - Belgium
+  - Belize
+  - Cabo Verde
+  - Chile
+  - Ecuador
+  - Egypt
+  - El Salvador
+  - Equatorial Guinea
+  - Eritrea
+  - Estonia
+  - Eswatini
+  - Ethiopia
+  - France
+  - Greece
+  - Guinea-Bissau
+  - Madagascar
+  - Mexico
+  - Monaco
+  - Montenegro
+  - Morocco
+  - Mozambique
+  - Myanmar
+  - Palau
+  - Peru
+  - Timor-Leste
+  - Tuvalu
+  - Ukraine
+  - United Kingdom
+  - Uruguay
+  - Vanuatu
+  - Vietnam
+  - Zimbabwe
+
+Community 4:
+  - Bangladesh
+  - Brunei
+  - Burundi
+  - Central African Republic
+  - Chad
+  - Congo
+  - Czech Republic
+  - Democratic Republic of the Congo
+  - Denmark
+  - Djibouti
+  - Dominica
+  - Dominican Republic
+  - Fiji
+  - Finland
+  - Haiti
+  - Hungary
+  - Iceland
+  - India
+  - Indonesia
+  - Iraq
+  - Ireland
+  - Israel
+  - Italy
+  - Ivory Coast
+  - Kiribati
+  - Malawi
+  - Mali
+  - Poland
+  - Thailand
+

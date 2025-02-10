@@ -1,0 +1,23 @@
+First Letter Frequencies:
+------------------------
+A: 11
+B: 4
+C: 7
+G: 7
+J: 1
+K: 1
+L: 4
+M: 6
+P: 2
+Q: 1
+R: 3
+T: 3
+U: 2
+V: 1
+Z: 1
+
+Last Letter Frequencies:
+------------------------
+A: 51
+N: 2
+R: 1

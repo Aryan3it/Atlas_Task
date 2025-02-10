@@ -1,0 +1,17 @@
+First Letter Frequencies:
+------------------------
+B: 1
+G: 1
+M: 6
+P: 2
+T: 1
+U: 2
+V: 2
+
+Last Letter Frequencies:
+------------------------
+M: 3
+O: 4
+R: 2
+U: 5
+Y: 1

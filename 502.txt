@@ -1,0 +1,517 @@
+
+Graph Statistics:
+Total Countries: 498
+Total Connections: 9201
+Average Connections: 18.47590361445783
+Most Connected: Ad-Dammam
+Isolated Countries: []
+
+Most Common Connecting Letters:
+'a': 2744 connections
+'n': 1280 connections
+'g': 967 connections
+'s': 840 connections
+'m': 629 connections
+
+Country Connection Ratios:
+
+Country              Ratio      In         Out        Total     
+------------------------------------------------------------
+Adelaide             0.96       81         3          84        
+Guangzhou            0.95       57         3          60        
+Gwangju              0.95       57         3          60        
+Ganzhou              0.95       57         3          60        
+Indore               0.94       51         3          54        
+Antananarivo         0.94       81         5          86        
+Aleppo               0.94       81         5          86        
+Abu Dhabi            0.93       81         6          87        
+Abomey-Calavi        0.93       81         6          87        
+Ningbo               0.92       61         5          66        
+Ouagadougou          0.92       33         3          36        
+Nairobi              0.91       61         6          67        
+New Taipei           0.91       61         6          67        
+Nnewi                0.91       61         6          67        
+Guwahati             0.90       57         6          63        
+Rome                 0.90       28         3          31        
+Recife               0.90       28         3          31        
+Ahvaz                0.89       81         10         91        
+Uyo                  0.88       37         5          42        
+Almaty               0.88       81         11         92        
+Glasgow              0.88       57         8          65        
+Amritsar             0.87       81         12         93        
+Suzhou               0.87       20         3          23        
+Singapore            0.87       20         3          23        
+Shantou              0.87       20         3          23        
+San Jose             0.87       20         3          23        
+Urumqi               0.86       37         6          43        
+Yaounde              0.85       17         3          20        
+Yangzhou             0.85       17         3          20        
+Yancheng Jiangsu     0.85       17         3          20        
+Yiwu                 0.85       17         3          20        
+Yingkou              0.85       17         3          20        
+Rio de Janeiro       0.85       28         5          33        
+Rosario              0.85       28         5          33        
+Rizhao               0.85       28         5          33        
+New York City        0.85       61         11         72        
+Niamey               0.85       61         11         72        
+Guatemala City       0.84       57         11         68        
+Nagpur               0.84       61         12         73        
+Ekurhuleni           0.83       29         6          35        
+Anyang               0.83       81         17         98        
+Gwalior              0.83       57         12         69        
+Melbourne            0.82       14         3          17        
+Mogadishu            0.82       14         3          17        
+Rawalpindi           0.82       28         6          34        
+Daegu                0.82       14         3          17        
+Marseille            0.82       14         3          17        
+Ranchi               0.82       28         6          34        
+Mysore               0.82       14         3          17        
+Taizhou Jiangsu      0.81       13         3          16        
+Tengzhou             0.81       13         3          16        
+Izmir                0.81       51         12         63        
+Sao Paulo            0.80       20         5          25        
+Santiago             0.80       20         5          25        
+Santo Domingo        0.80       20         5          25        
+Sapporo              0.80       20         5          25        
+San Antonio          0.80       20         5          25        
+San Diego            0.80       20         5          25        
+Abidjan              0.79       81         21         102       
+Asuncion             0.79       81         21         102       
+Amman                0.79       81         21         102       
+Anshan               0.79       81         21         102       
+Ahmedabad            0.79       81         22         103       
+Aurangabad           0.79       81         22         103       
+Auckland             0.79       81         22         103       
+Allahabad            0.79       81         22         103       
+Nanjing              0.78       61         17         78        
+Nanning              0.78       61         17         78        
+Nanchang             0.78       61         17         78        
+Nantong              0.78       61         17         78        
+Nanchong             0.78       61         17         78        
+Guiyang              0.78       56         16         72        
+Gaoxiong             0.78       56         16         72        
+Shanghai             0.77       20         6          26        
+Hangzhou             0.77       10         3          13        
+Huizhou              0.77       10         3          13        
+Sendai               0.77       20         6          26        
+Haikou               0.77       10         3          13        
+Harare               0.77       10         3          13        
+San Luis Potosi      0.77       20         6          26        
+Siliguri             0.77       20         6          26        
+Asansol              0.76       81         26         107       
+Aligarh              0.76       81         26         107       
+Ulaanbaatar          0.76       37         12         49        
+Lahore               0.75       9          3          12        
+Lanzhou              0.75       9          3          12        
+Liuzhou              0.75       9          3          12        
+Lome                 0.75       9          3          12        
+Lilongwe             0.75       9          3          12        
+Nanyang Henan        0.75       60         20         80        
+Luohe                0.75       9          3          12        
+Yantai               0.74       17         6          23        
+Maracaibo            0.74       14         5          19        
+Montevideo           0.74       14         5          19        
+Maceio               0.74       14         5          19        
+Maputo               0.74       14         5          19        
+Nizhniy Novgorod     0.73       61         22         83        
+Guilin               0.73       57         21         78        
+Kozhikode            0.73       8          3          11        
+Kathmandu            0.73       8          3          11        
+Tokyo                0.72       13         5          18        
+Toronto              0.72       13         5          18        
+Toluca de Lerdo      0.72       13         5          18        
+Raipur               0.71       27         11         38        
+Ibadan               0.71       51         21         72        
+Incheon              0.71       51         21         72        
+Addis Ababa          0.71       80         33         113       
+Alexandria           0.71       80         33         113       
+Ankara               0.71       80         33         113       
+Abuja                0.71       80         33         113       
+Accra                0.71       80         33         113       
+Agra                 0.71       80         33         113       
+Adana                0.71       80         33         113       
+Antalya              0.71       80         33         113       
+Astana               0.71       80         33         113       
+Aba                  0.71       80         33         113       
+Natal                0.70       61         26         87        
+Delhi                0.70       14         6          20        
+Mumbai               0.70       14         6          20        
+Dubai                0.70       14         6          20        
+Mbuji-Mayi           0.70       14         6          20        
+Madurai              0.70       14         6          20        
+Mexicali             0.70       14         6          20        
+Islamabad            0.70       51         22         73        
+Gaziantep            0.70       57         25         82        
+Guayaquil            0.69       57         26         83        
+Taiyuan Shanxi       0.68       13         6          19        
+Tangshan Hebei       0.68       13         6          19        
+Taipei               0.68       13         6          19        
+Tiruchirappalli      0.68       13         6          19        
+Tripoli              0.68       13         6          19        
+Nashik               0.68       61         29         90        
+Novosibirsk          0.68       61         29         90        
+Nouakchott           0.68       61         29         90        
+Zhengzhou            0.67       6          3          9         
+Santa Cruz           0.67       20         10         30        
+Shiraz               0.67       20         10         30        
+Zhangjiakou          0.67       6          3          9         
+Zhuzhou              0.67       6          3          9         
+Zhenjiang Jiangsu    0.67       6          3          9         
+Athens               0.66       81         41         122       
+Algiers              0.66       81         41         122       
+Aguascalientes       0.66       81         41         122       
+Istanbul             0.66       51         26         77        
+Tel Aviv             0.65       13         7          20        
+Sydney               0.65       20         11         31        
+Ad-Dammam            0.64       81         45         126       
+Amsterdam            0.64       81         45         126       
+Nagoya               0.64       61         34         95        
+N-Djamena            0.64       61         34         95        
+Moscow               0.64       14         8          22        
+Guadalajara          0.63       57         34         91        
+Goiania              0.63       57         34         91        
+Gujranwala           0.63       57         34         91        
+Grande Vitoria       0.63       57         34         91        
+Hanoi                0.62       10         6          16        
+Hefei                0.62       10         6          16        
+Salvador             0.62       20         12         32        
+Srinagar             0.62       20         12         32        
+Helsinki             0.62       10         6          16        
+Huaibei              0.62       10         6          16        
+Saharanpur           0.62       20         12         32        
+Kano                 0.62       8          5          13        
+Lubumbashi           0.60       9          6          15        
+Liupanshui           0.60       9          6          15        
+Naples               0.60       61         41         102       
+Grande Sao Luis      0.58       57         41         98        
+Esfahan              0.58       29         21         50        
+Edmonton             0.58       29         21         50        
+Karachi              0.57       8          6          14        
+Wenzhou              0.57       4          3          7         
+Kumasi               0.57       8          6          14        
+Kochi                0.57       8          6          14        
+West Yorkshire       0.57       4          3          7         
+Kisangani            0.57       8          6          14        
+Ruian                0.57       28         21         49        
+Kigali               0.57       8          6          14        
+Tabriz               0.57       13         10         23        
+Mexico City          0.56       14         11         25        
+Monterrey            0.56       14         11         25        
+Davao City           0.56       14         11         25        
+Mandalay             0.56       14         11         25        
+Maracay              0.56       14         11         25        
+Zibo                 0.55       6          5          11        
+Shenyang             0.54       20         17         37        
+Saint Petersburg     0.54       20         17         37        
+Shijiazhuang         0.54       20         17         37        
+Shaoxing             0.54       20         17         37        
+Semarang             0.54       20         17         37        
+Dakar                0.54       14         12         26        
+Manchester           0.54       14         12         26        
+Makassar             0.54       14         12         26        
+Durg-Bhilainagar     0.54       14         12         26        
+Kiev                 0.53       8          7          15        
+Kharkiv              0.53       8          7          15        
+Omsk                 0.53       33         29         62        
+Lucknow              0.53       9          8          17        
+Thrissur             0.52       13         12         25        
+Tiruppur             0.52       13         12         25        
+Tanger               0.52       13         12         25        
+Riyadh               0.52       28         26         54        
+Zhuhai               0.50       6          6          12        
+Yichang              0.50       17         17         34        
+Yekaterinburg        0.50       17         17         34        
+Zunyi                0.50       6          6          12        
+Yueqing              0.50       17         17         34        
+Osaka                0.49       33         34         67        
+Onitsha              0.49       33         34         67        
+Ottawa               0.49       33         34         67        
+Rajkot               0.49       28         29         57        
+Rabat                0.49       28         29         57        
+Shenzhen             0.49       20         21         41        
+San Juan             0.49       20         21         41        
+Suqian               0.49       20         21         41        
+Shiyan               0.49       20         21         41        
+Suweon               0.49       20         21         41        
+Samut Prakan         0.49       20         21         41        
+Ho Chi Minh City     0.48       10         11         21        
+La Paz               0.47       9          10         19        
+Daqing               0.45       14         17         31        
+Datong               0.45       14         17         31        
+Dongying             0.45       14         17         31        
+Maoming              0.45       14         17         31        
+Da Nang              0.45       14         17         31        
+Yangon               0.45       17         21         38        
+Yinchuan             0.45       17         21         38        
+Seoul                0.43       20         26         46        
+Sharjah              0.43       20         26         46        
+Tangerang            0.43       13         17         30        
+Taizhou Zhejiang     0.43       13         17         30        
+Taian Shandong       0.43       13         17         30        
+Taizhong             0.43       13         17         30        
+Kuwait City          0.42       8          11         19        
+Surat                0.41       20         29         49        
+Shimkent             0.41       20         29         49        
+Kuala Lumpur         0.40       8          12         20        
+Dongguan             0.40       14         21         35        
+Dalian               0.40       14         21         35        
+Medellin             0.40       14         21         35        
+Wuxi                 0.40       4          6          10        
+Kanpur               0.40       8          12         20        
+Durban               0.40       14         21         35        
+Milan                0.40       14         21         35        
+Medan                0.40       14         21         35        
+Kannur               0.40       8          12         20        
+Multan               0.40       14         21         35        
+Wuhu Anhui           0.40       4          6          10        
+Daejon               0.40       14         21         35        
+Weihai               0.40       4          6          10        
+Mianyang Sichuan     0.40       14         21         35        
+Dublin               0.40       14         21         35        
+Madrid               0.39       14         22         36        
+Mashhad              0.39       14         22         36        
+Moradabad            0.39       14         22         36        
+Tianjin              0.38       13         21         34        
+Tehran               0.38       13         21         34        
+Taoyuan              0.38       13         21         34        
+Turin                0.38       13         21         34        
+Dhanbad              0.38       13         21         34        
+Hong Kong            0.37       10         17         27        
+Sanaa                0.37       20         34         54        
+Surabaya             0.37       20         34         54        
+Shizuoka             0.37       20         34         54        
+Hamburg              0.37       10         17         27        
+Hengyang             0.37       10         17         27        
+Hai Phong            0.37       10         17         27        
+Sofia                0.37       20         34         54        
+Montreal             0.35       14         26         40        
+Mosul                0.35       14         26         40        
+Munich               0.35       14         26         40        
+Luoyang              0.35       9          17         26        
+Linyi Shandong       0.35       9          17         26        
+Lianyungang          0.35       9          17         26        
+Liuyang              0.35       9          17         26        
+Varanasi             0.33       3          6          9         
+Depok                0.33       14         29         43        
+Minsk                0.33       14         29         43        
+Meerut               0.33       14         29         43        
+Muscat               0.33       14         29         43        
+Haerbin              0.32       10         21         31        
+Handan               0.32       10         21         31        
+Huaian               0.32       10         21         31        
+Houston              0.32       10         21         31        
+Huainan              0.32       10         21         31        
+Kunming              0.32       8          17         25        
+Karaj                0.32       8          17         25        
+Kaifeng              0.32       8          17         25        
+Hyderabad            0.31       10         22         32        
+Hubli-Dharwad        0.31       10         22         32        
+Stockholm            0.31       20         45         65        
+Salem                0.31       20         45         65        
+London               0.30       9          21         30        
+Lisbon               0.30       9          21         30        
+Tashkent             0.30       12         28         40        
+Warsaw               0.30       3          7          10        
+Lyon                 0.30       9          21         30        
+Liuan                0.30       9          21         30        
+Dhaka                0.29       14         34         48        
+Manila               0.29       14         34         48        
+Douala               0.29       14         34         48        
+Mecca                0.29       14         34         48        
+Matola               0.29       14         34         48        
+Monrovia             0.29       14         34         48        
+Medina               0.29       14         34         48        
+Mombasa              0.29       14         34         48        
+Mwanza               0.29       14         34         48        
+Mendoza              0.29       14         34         48        
+Merida               0.29       14         34         48        
+Tijuana              0.28       13         34         47        
+Tegucigalpa          0.28       13         34         47        
+Tasikmalaya          0.28       13         34         47        
+Kazan                0.28       8          21         29        
+Zhanjiang            0.26       6          17         23        
+Hohhot               0.26       10         29         39        
+Damascus             0.25       14         41         55        
+Manaus               0.25       14         41         55        
+Dallas               0.25       14         41         55        
+Pune                 0.25       1          3          4         
+Porto Alegre         0.25       1          3          4         
+Port-au-Prince       0.25       1          3          4         
+Xuzhou               0.25       1          3          4         
+Pointe-Noire         0.25       1          3          4         
+Joinville            0.25       1          3          4         
+Pekan Baru           0.25       1          3          4         
+Prague               0.25       1          3          4         
+Pizhou               0.25       1          3          4         
+Jinzhou              0.25       1          3          4         
+Tunis                0.24       13         41         54        
+Dar es Salaam        0.24       14         45         59        
+Kabul                0.24       8          26         34        
+Malappuram           0.23       13         44         57        
+Havana               0.23       10         34         44        
+Hiroshima            0.23       10         34         44        
+Haifa                0.23       10         34         44        
+Hargeysa             0.23       10         34         44        
+Thiruvananthapuram   0.22       13         45         58        
+Zhongshan            0.22       6          21         27        
+Lima                 0.21       9          34         43        
+Luanda               0.21       9          34         43        
+Lusaka               0.21       9          34         43        
+Ludhiana             0.21       9          34         43        
+La Laguna            0.21       9          34         43        
+Vancouver            0.20       3          12         15        
+Krasnoyarsk          0.20       7          28         35        
+Homs                 0.20       10         41         51        
+Kinshasa             0.19       8          34         42        
+Kolkata              0.19       8          34         42        
+Kampala              0.19       8          34         42        
+Weifang              0.19       4          17         21        
+Kananga              0.19       8          34         42        
+Kota                 0.19       8          34         42        
+Konya                0.19       8          34         42        
+Kaduna               0.19       8          34         42        
+Zurich               0.19       6          26         32        
+Lagos                0.18       9          41         50        
+Los Angeles          0.18       9          41         50        
+Leon de los Aldamas  0.18       9          41         50        
+Porto                0.17       1          5          6         
+Wuhan                0.16       4          21         25        
+Khartoum             0.15       8          45         53        
+Kollam               0.15       8          45         53        
+Phoenix              0.11       1          8          9         
+Panama City          0.08       1          11         12        
+Vadodara             0.08       3          34         37        
+Vijayawada           0.08       3          34         37        
+Valencia             0.08       3          34         37        
+Vienna               0.08       3          34         37        
+Jaipur               0.08       1          12         13        
+Peshawar             0.08       1          12         13        
+Jamshedpur           0.08       1          12         13        
+Jodhpur              0.08       1          12         13        
+Jabalpur             0.08       1          12         13        
+Visakhapatnam        0.06       3          45         48        
+Johannesburg         0.06       1          17         18        
+Ji nan Shandong      0.06       1          17         18        
+Pyongyang            0.06       1          17         18        
+Palembang            0.06       1          17         18        
+Xiangyang            0.06       1          17         18        
+Xining               0.06       1          17         18        
+Jining Shandong      0.06       1          17         18        
+Jiaxing              0.06       1          17         18        
+Jieyang              0.06       1          17         18        
+Puning               0.06       1          17         18        
+Xinxiang             0.06       1          17         18        
+Xi-an                0.05       1          21         22        
+Xiamen               0.05       1          21         22        
+Putian               0.05       1          21         22        
+Jiangmen             0.05       1          21         22        
+Jilin                0.05       1          21         22        
+Pingdingshan Henan   0.05       1          21         22        
+Xiangtan Hunan       0.05       1          21         22        
+Xiongan              0.05       1          21         22        
+Jiddah               0.04       1          26         27        
+Phnom Penh           0.04       1          26         27        
+Perth                0.04       1          26         27        
+Port Elizabeth       0.04       1          26         27        
+Port Harcourt        0.03       1          29         30        
+Jakarta              0.03       1          34         35        
+Puebla               0.03       1          34         35        
+Pretoria             0.03       1          34         35        
+Patna                0.03       1          34         35        
+Philadelphia         0.03       1          34         35        
+Joao Pessoa          0.03       1          34         35        
+Jinhua               0.03       1          34         35        
+Paris                0.02       1          41         42        
+Cairo                0.00       0          5          5         
+Beijing              0.00       0          17         17        
+Chongqing            0.00       0          17         17        
+Buenos Aires         0.00       0          41         41        
+Bangalore            0.00       0          3          3         
+Chennai              0.00       0          6          6         
+Bogota               0.00       0          34         34        
+Bangkok              0.00       0          29         29        
+Chengdu              0.00       0          3          3         
+Baghdad              0.00       0          22         22        
+Foshan               0.00       0          21         21        
+Belo Horizonte       0.00       0          3          3         
+Qingdao              0.00       0          5          5         
+Barcelona            0.00       0          34         34        
+Chittagong           0.00       0          17         17        
+Fukuoka              0.00       0          34         34        
+Changsha             0.00       0          34         34        
+Cape Town            0.00       0          21         21        
+Brasilia             0.00       0          34         34        
+Changchun            0.00       0          21         21        
+Fortaleza            0.00       0          34         34        
+Changzhou            0.00       0          3          3         
+Fuzhou Fujian        0.00       0          21         21        
+Casablanca           0.00       0          34         34        
+Curitiba             0.00       0          34         34        
+Bekasi               0.00       0          6          6         
+Faisalabad           0.00       0          22         22        
+Berlin               0.00       0          21         21        
+Busan                0.00       0          21         21        
+Campinas             0.00       0          41         41        
+Coimbatore           0.00       0          3          3         
+Bamako               0.00       0          5          5         
+Caracas              0.00       0          41         41        
+Cali                 0.00       0          6          6         
+Brazzaville          0.00       0          3          3         
+Bandung              0.00       0          17         17        
+Birmingham           0.00       0          45         45        
+Chicago              0.00       0          5          5         
+Bhopal               0.00       0          26         26        
+Brisbane             0.00       0          3          3         
+Baku                 0.00       0          3          3         
+Belem                0.00       0          45         45        
+Beirut               0.00       0          29         29        
+Baotou               0.00       0          3          3         
+Barranquilla         0.00       0          34         34        
+Conakry              0.00       0          11         11        
+Baoding              0.00       0          17         17        
+Brussels             0.00       0          41         41        
+Bursa                0.00       0          34         34        
+Quito                0.00       0          5          5         
+Benin City           0.00       0          11         11        
+Baixada Santista     0.00       0          34         34        
+Can Tho              0.00       0          5          5         
+Quanzhou             0.00       0          3          3         
+Cixi                 0.00       0          6          6         
+Batam                0.00       0          45         45        
+Budapest             0.00       0          29         29        
+Bucharest            0.00       0          29         29        
+Qinhuangdao          0.00       0          5          5         
+Calgary              0.00       0          11         11        
+Qiqihaer             0.00       0          12         12        
+Cordoba              0.00       0          34         34        
+Ciudad Juarez        0.00       0          10         10        
+Chaozhou             0.00       0          3          3         
+Basra                0.00       0          34         34        
+Chon Buri            0.00       0          6          6         
+Queretaro            0.00       0          5          5         
+Cochabamba           0.00       0          34         34        
+Belgrade             0.00       0          3          3         
+Bucaramanga          0.00       0          34         34        
+Copenhagen           0.00       0          21         21        
+Bareilly             0.00       0          11         11        
+Qom                  0.00       0          45         45        
+Freetown             0.00       0          21         21        
+Fushun Liaoning      0.00       0          17         17        
+Fes                  0.00       0          41         41        
+Florianopolis        0.00       0          41         41        
+Bukavu               0.00       0          3          3         
+Baoji                0.00       0          6          6         
+Bhubaneswar          0.00       0          12         12        
+Chifeng              0.00       0          17         17        
+Bujumbura            0.00       0          34         34        
+Barquisimeto         0.00       0          5          5         
+Bogor                0.00       0          12         12        
+Chelyabinsk          0.00       0          29         29        
+Chandigarh           0.00       0          26         26        
+Benxi                0.00       0          6          6         
+Binzhou              0.00       0          3          3         
+Chiang Mai           0.00       0          6          6         
+Bazhong              0.00       0          17         17        
+Quetta               0.00       0          34         34        
+Bandar Lampung       0.00       0          17         17        
+Bobo-Dioulasso       0.00       0          5          5         
