@@ -5,14 +5,12 @@ import numpy as np
 from collections import defaultdict
 
 def analyze_country_connections(filename):
-    # Read countries and create graph
     with open(filename, 'r') as f:
         countries = [line.strip() for line in f]
     
     G = nx.DiGraph()
     G.add_nodes_from(countries)
-    
-    # Create edges
+
     letter_connections = defaultdict(int)
     for country1 in countries:
         for country2 in countries:
@@ -57,16 +55,11 @@ def analyze_country_ratios(G):
     return country_ratios
 
 def visualize_beautiful_graph(G, country_ratios):
-    # Create figure with a specific size and gridspec for colorbar
     fig = plt.figure(figsize=(24, 24), facecolor='white')
-    gs = fig.add_gridspec(1, 20)  # 20 columns grid
-    ax_main = fig.add_subplot(gs[:, :-1])  # Main plot uses all but last column
-    ax_cbar = fig.add_subplot(gs[:, -1])  # Colorbar uses last column
-    
-    # Use kamada_kawai_layout for better distribution
+    gs = fig.add_gridspec(1, 20) 
+    ax_main = fig.add_subplot(gs[:, :-1]) 
+    ax_cbar = fig.add_subplot(gs[:, -1])
     pos = nx.kamada_kawai_layout(G)
-    
-    # Node sizes and colors based on ratio
     node_sizes = []
     node_colors = []
     for node in G.nodes():
@@ -74,8 +67,7 @@ def visualize_beautiful_graph(G, country_ratios):
         total_connections = country_ratios[node]['total']
         node_sizes.append(4000 * (1 + total_connections) / G.number_of_nodes())
         node_colors.append(plt.cm.RdYlBu(ratio))
-    
-    # Draw edges with curved arrows
+
     nx.draw_networkx_edges(G, pos,
                           edge_color='gray',
                           arrows=True,
@@ -84,8 +76,7 @@ def visualize_beautiful_graph(G, country_ratios):
                           width=1.5,
                           connectionstyle="arc3,rad=0.2",
                           ax=ax_main)
-    
-    # Draw nodes with white borders
+
     nodes = nx.draw_networkx_nodes(G, pos,
                                  node_size=node_sizes,
                                  node_color=node_colors,
@@ -93,8 +84,7 @@ def visualize_beautiful_graph(G, country_ratios):
                                  edgecolors='white',
                                  linewidths=2,
                                  ax=ax_main)
-    
-    # Add labels with white background
+
     labels = nx.draw_networkx_labels(G, pos,
                                    font_size=10,
                                    font_weight='bold',
@@ -103,8 +93,7 @@ def visualize_beautiful_graph(G, country_ratios):
                                            alpha=0.7,
                                            pad=0.5),
                                    ax=ax_main)
-    
-    # Add colorbar legend
+
     norm = plt.Normalize(0, 1)
     sm = plt.cm.ScalarMappable(cmap=plt.cm.RdYlBu, norm=norm)
     cbar = plt.colorbar(sm, cax=ax_cbar)
@@ -120,8 +109,6 @@ def visualize_beautiful_graph(G, country_ratios):
 
 def main(filename):
     G, letter_connections = analyze_country_connections(filename)
-    
-    # Display statistics
     stats = analyze_graph_statistics(G)
     print("\nGraph Statistics:")
     for key, value in stats.items():
@@ -131,8 +118,6 @@ def main(filename):
     sorted_letters = sorted(letter_connections.items(), key=lambda x: x[1], reverse=True)
     for letter, count in sorted_letters[:5]:
         print(f"'{letter}': {count} connections")
-    
-    # Display country ratios
     print("\nCountry Connection Ratios:")
     country_ratios = analyze_country_ratios(G)
     sorted_countries = sorted(country_ratios.items(), 
@@ -151,8 +136,7 @@ def main(filename):
             data['out_degree'],
             data['total']
         ))
-    
-    # Visualize the graph
+
     visualize_beautiful_graph(G, country_ratios)
     plt.show()
 

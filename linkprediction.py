@@ -40,8 +40,7 @@ def create_features(countries):
         first_letter[first_idx] = 1
         last_letter[last_idx] = 1
         
-        # Add length feature
-        length_feature = np.array([len(country) / 20.0])  # Normalized length
+        length_feature = np.array([len(country) / 20.0])
         
         feature = np.concatenate([first_letter, last_letter, length_feature])
         features.append(feature)
@@ -57,9 +56,7 @@ def evaluate_node2vec(model, G, test_edges, test_non_edges):
     scores = []
     labels = []
     
-    # Enhanced scoring for directed edges
     for edge in test_edges:
-        # Combine different similarity metrics
         cosine_sim = np.dot(embeddings[edge[0]], embeddings[edge[1]]) / \
                     (np.linalg.norm(embeddings[edge[0]]) * np.linalg.norm(embeddings[edge[1]]))
         euclidean_dist = np.linalg.norm(embeddings[edge[0]] - embeddings[edge[1]])
@@ -84,57 +81,50 @@ def evaluate_node2vec(model, G, test_edges, test_non_edges):
 
 def train_node2vec(G, dimensions=128, walk_length=40, num_walks=400):
     """Train Node2Vec model with optimized parameters for directed letter graphs"""
-    # Calculate graph statistics for informed parameter selection
     avg_degree = sum(dict(G.degree()).values()) / G.number_of_nodes()
     
     node2vec = Node2Vec(
         G, 
         dimensions=dimensions,
-        walk_length=walk_length,  # Longer walks
-        num_walks=num_walks,      # More walks
+        walk_length=walk_length,  
+        num_walks=num_walks,      
         workers=4,
-        p=0.25,  # Encourage backtracking
-        q=2.0    # Favor BFS-like exploration
+        p=0.25,  
+        q=2.0    
     )
     
-    # Updated parameters for newer gensim versions
+    
     model = node2vec.fit(
-        window=15,       # Larger context window
+        window=15,       
         min_count=1,
         batch_words=4,
-        sg=1,           # Skip-gram
-        epochs=20,      # Changed from iter to epochs
-        alpha=0.025     # Learning rate
+        sg=1,          
+        epochs=20,      
+        alpha=0.025     
     )
     
     return model
 
 def main(filename):
-    # Read data and create graph
+
     print("\nLoading and preprocessing data...")
     with open(filename, 'r') as f:
         countries = [line.strip() for line in f]
     
-    # Create country to index mapping
     country_to_idx = {country: idx for idx, country in enumerate(countries)}
     
-    # Add edges using country indices
     edges = []
     for c1 in countries:
         for c2 in countries:
             if c1 != c2 and c1[-1].lower() == c2[0].lower():
                 edges.append((country_to_idx[c1], country_to_idx[c2]))
     
-    # Create node features
     features = create_features(countries)
     
-    # Convert to PyG data
     x = torch.FloatTensor(features)
     edge_index = torch.LongTensor(edges).t()
     
     data = Data(x=x, edge_index=edge_index)
-    
-    # Create train/val/test splits
     transform = RandomLinkSplit(
         num_val=0.1,
         num_test=0.1,
@@ -145,11 +135,8 @@ def main(filename):
     
     train_data, val_data, test_data = transform(data)
     
-    # Get test edges for Node2Vec evaluation
     test_pos_edges = test_data.edge_label_index[:, test_data.edge_label == 1].t().numpy()
     test_neg_edges = test_data.edge_label_index[:, test_data.edge_label == 0].t().numpy()
-    
-    # Train and evaluate Node2Vec
     print("\n=== Training Node2Vec ===")
     n2v_start_time = time.time()
     G = nx.DiGraph()
@@ -160,10 +147,9 @@ def main(filename):
     
     n2v_auc, n2v_ap = evaluate_node2vec(n2v_model, G, test_pos_edges, test_neg_edges)
     
-    # Train and evaluate GNN
     print("\n=== Training GNN ===")
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    model = LinkPredictionGNN(in_channels=53, hidden_channels=64).to(device)  # 53 features (52 letter + 1 length)
+    model = LinkPredictionGNN(in_channels=53, hidden_channels=64).to(device)  
     optimizer = torch.optim.Adam(params=model.parameters(), lr=0.01)
     criterion = torch.nn.BCEWithLogitsLoss()
     
@@ -200,7 +186,6 @@ def main(filename):
     gnn_train_time = time.time() - gnn_start_time
     final_test_auc = test(test_data)
     
-    # Print comprehensive results
     print("\n=== Final Results ===")
     print("\nModel Performance:")
     print("-" * 60)

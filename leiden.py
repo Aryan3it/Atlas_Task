@@ -1,4 +1,3 @@
-# graphs3.py
 import networkx as nx
 import matplotlib.pyplot as plt
 import string
@@ -8,7 +7,7 @@ import leidenalg
 
 def generate_colors(n):
     """Generate n distinct colors"""
-    return plt.cm.Set3(np.linspace(0, 1, n))  # Changed to Set3 for softer colors
+    return plt.cm.Set3(np.linspace(0, 1, n)) 
 
 def write_communities_to_file(communities, nodes, filename="abc.txt"):
     """Write communities and their member nodes to a file"""
@@ -26,14 +25,13 @@ def write_communities_to_file(communities, nodes, filename="abc.txt"):
             f.write("\n")
 
 def create_country_graph(filename):
-    # Read country names
+
     with open(filename, 'r') as f:
         countries = [line.strip() for line in f]
     
     G = nx.DiGraph()
     G.add_nodes_from(countries)
-    
-    # Enhanced color mapping
+
     letters = list(string.ascii_lowercase)
     colors = generate_colors(len(letters))
     letter_colors = dict(zip(letters, colors))
@@ -50,7 +48,6 @@ def create_country_graph(filename):
     
     G.add_edges_from(edges)
     
-    # Community detection
     G_undirected = G.to_undirected()
     adj_matrix = nx.adjacency_matrix(G_undirected)
     g_igraph = ig.Graph.Adjacency(adj_matrix.toarray().tolist())
@@ -62,22 +59,18 @@ def create_country_graph(filename):
     communities = {i: membership for i, membership in enumerate(partitions.membership)}
     write_communities_to_file(communities, G.nodes())
     
-    # Enhanced visualization
+
     plt.figure(figsize=(24, 24), facecolor='white')
     
-    # Use kamada_kawai_layout for better node distribution
     pos = nx.kamada_kawai_layout(G)
     
-    # Community colors with enhanced palette
     num_communities = len(set(communities.values()))
     community_colors = plt.cm.Pastel1(np.linspace(0, 1, num_communities))
     node_colors = [community_colors[communities[i]] for i in range(len(G.nodes()))]
-    
-    # Node sizes based on degree centrality
+
     node_sizes = [4000 * (1 + G.degree(node)) / G.number_of_nodes() 
                  for node in G.nodes()]
     
-    # Draw edges with curved arrows and transparency
     nx.draw_networkx_edges(G, pos,
                           edge_color=edge_colors,
                           arrows=True,
@@ -85,8 +78,7 @@ def create_country_graph(filename):
                           alpha=0.6,
                           width=2,
                           connectionstyle="arc3,rad=0.2")
-    
-    # Draw nodes with gradient effect
+
     nodes = nx.draw_networkx_nodes(G, pos,
                                  node_color=node_colors,
                                  node_size=node_sizes,
@@ -94,7 +86,7 @@ def create_country_graph(filename):
                                  edgecolors='white',
                                  linewidths=2)
     
-    # Add white outline to labels
+
     labels = nx.draw_networkx_labels(G, pos,
                                    font_size=10,
                                    font_weight='bold',
@@ -103,7 +95,6 @@ def create_country_graph(filename):
                                            alpha=0.7,
                                            pad=0.5))
     
-    # Enhanced legend
     legend_elements = [plt.Line2D([0], [0], marker='o', color='w',
                                  markerfacecolor=color,
                                  label=f'Community {i}',
