@@ -85,6 +85,7 @@ For maximum connections:
 2. Avoid countries that:
    - End in rare letters (q, x)
    - Start with uncommon endings
+  
   More or less the the community related strategy written in Task 1 can be implemented using this technique
 
 ## Quantitative Metrics
